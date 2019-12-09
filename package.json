@@ -4,6 +4,10 @@
   "description": "create a set of responsive, optimized images from a single source",
   "main": "lib/processImage.js",
   "bin": "bin/responsive-images",
+  "files": [
+    "lib/index.js",
+    "lib/image.js"
+  ],
   "scripts": {
     "test": "jest"
   },
