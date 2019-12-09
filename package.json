@@ -1,6 +1,6 @@
 {
   "name": "responsive-images",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "create a set of responsive, optimized images from a single source",
   "main": "lib/processImage.js",
   "bin": "bin/responsive-images",
