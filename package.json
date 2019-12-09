@@ -6,7 +6,8 @@
   "bin": "bin/responsive-images",
   "files": [
     "lib/index.js",
-    "lib/image.js"
+    "lib/image.js",
+    "bin/responsive-images"
   ],
   "scripts": {
     "test": "jest"
