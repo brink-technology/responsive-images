@@ -2,7 +2,8 @@
   "name": "responsive-images",
   "version": "0.0.1",
   "description": "create a set of responsive, optimized images from a single source",
-  "main": "lib/index.js",
+  "main": "lib/processImage.js",
+  "bin": "bin/responsive-images",
   "scripts": {
     "test": "jest"
   },
