@@ -1,9 +1,11 @@
 {
-  "name": "responsive-images",
+  "name": "@findthebrink/responsive-images",
   "version": "0.1.0",
   "description": "create a set of responsive, optimized images from a single source",
-  "main": "lib/processImage.js",
-  "bin": "bin/responsive-images",
+  "main": "lib/image.js",
+  "bin": {
+    "responsive-images": "bin/responsive-images"
+  },
   "files": [
     "lib/index.js",
     "lib/image.js",
@@ -24,5 +26,25 @@
     "@types/fs-extra": "^8.0.1",
     "@types/jest": "^24.0.23",
     "jest": "^24.9.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-findthebrink/responsive-images.git"
+  },
+  "keywords": [
+    "images",
+    "responsive",
+    "webp",
+    "jp2",
+    "jpg",
+    "processing",
+    "imagemagick"
+  ],
+  "bugs": {
+    "url": "https://github.com/derek-findthebrink/responsive-images/issues"
+  },
+  "homepage": "https://github.com/derek-findthebrink/responsive-images#readme"
 }
