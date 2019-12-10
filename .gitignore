@@ -1,3 +1,5 @@
 node_modules
+
 /output
-lib/tests/images__output
+/lib/tests/images__output
+/package-lock.json
